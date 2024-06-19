@@ -1,3 +1,7 @@
 hello = -> console.log('Hiiiiiii')
 
-hi = console.log('asdasdasdas')
+greet = (name) ->
+  console.log "Hello, #{name}!"
+
+# Call the function with a sample name
+greet "Alice"
